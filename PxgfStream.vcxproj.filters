@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PxgfReadWrite">
+      <UniqueIdentifier>{99de4f8e-c6e3-48bc-a9a7-14624e0bf02b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChunkHandlers">
+      <UniqueIdentifier>{6bb2a250-d292-43b7-ac70-139785802cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions">
+      <UniqueIdentifier>{cf5285a2-559a-4f53-9533-44ae0fcbf882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packing">
+      <UniqueIdentifier>{03e2aec4-2b96-413d-b1be-9a4c481f9651}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChunkHandler.h">
+      <Filter>PxgfReadWrite</Filter>
+    </ClInclude>
+    <ClInclude Include="PXGReaderBase.h">
+      <Filter>PxgfReadWrite</Filter>
+    </ClInclude>
+    <ClInclude Include="PXGSocketReader.h">
+      <Filter>PxgfReadWrite</Filter>
+    </ClInclude>
+    <ClInclude Include="PXGSocketWriter.h">
+      <Filter>PxgfReadWrite</Filter>
+    </ClInclude>
+    <ClInclude Include="PXGStreamReader.h">
+      <Filter>PxgfReadWrite</Filter>
+    </ClInclude>
+    <ClInclude Include="PXGStreamWriter.h">
+      <Filter>PxgfReadWrite</Filter>
+    </ClInclude>
+    <ClInclude Include="PXGWriterBase.h">
+      <Filter>PxgfReadWrite</Filter>
+    </ClInclude>
+    <ClInclude Include="ResetHandler.h">
+      <Filter>PxgfReadWrite</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapEndian.h">
+      <Filter>PxgfReadWrite</Filter>
+    </ClInclude>
+    <ClInclude Include="handlers\PxgfHandlerException.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\PxgfEofException.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\PxgfException.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\PxgfIllegalArgumentException.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandler_dBFS.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandler_dBTG.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerANTH.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerBW__.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerBWOF.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerCF__.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerEOFH.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerFFS_.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerGCBW.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerGCF_.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerGFNC.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerGIQP.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerGRG_.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerGSIQ.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerGSNC.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerIQDC.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerSFNC.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerSFNR.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerSIQP.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerSOFH.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerSR__.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerSSIQ.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerSSNC.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerSSNR.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerSSR_.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\ChunkHandlerTEXT.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\PxgfHandlerException.h">
+      <Filter>ChunkHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\packings\PackingGIQP.h">
+      <Filter>Packing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\handlers\packings\PackingSIQP.h">
+      <Filter>Packing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ChunkHandler_dBFS.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandler_dBTG.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerANTH.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerBW__.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerBWOF.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerCF__.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerEOFH.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerFFS_.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerGCBW.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerGCF_.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerGFNC.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerGIQP.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerGRG_.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerGSIQ.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerGSNC.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerIQDC.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerSFNC.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerSFNR.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerSIQP.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerSOFH.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerSR__.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerSSIQ.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerSSNC.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerSSNR.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerSSR_.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkHandlerTEXT.cpp">
+      <Filter>ChunkHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PackingGIQP.cpp">
+      <Filter>Packing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PackingSIQP.cpp">
+      <Filter>Packing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PXGReaderBase.cpp">
+      <Filter>PxgfReadWrite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PXGSocketReader.cpp">
+      <Filter>PxgfReadWrite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PXGSocketWriter.cpp">
+      <Filter>PxgfReadWrite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PXGStreamReader.cpp">
+      <Filter>PxgfReadWrite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PXGStreamWriter.cpp">
+      <Filter>PxgfReadWrite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PXGWriterBase.cpp">
+      <Filter>PxgfReadWrite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SwapEndian.cpp">
+      <Filter>PxgfReadWrite</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
