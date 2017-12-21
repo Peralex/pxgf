@@ -37,11 +37,8 @@ namespace pxgf
 			return true;
 		}
 
-		float f_dBFullScale_dBm = *(float *)vchData.data();
 		if(cPXGWriterBase::getIsLocalBigEndian() != bBigEndian)
-			SWAP_FLOAT(f_dBFullScale_dBm);
 
-		m_pCallbackFFS_Handler->callbackFFS_(f_dBFullScale_dBm);
 		return true;
 	}
 

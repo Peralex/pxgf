@@ -30,7 +30,7 @@ namespace pxgf
 		public:
 			/// Called on the callback handler whenever a FFS_
 			/// chunk is processed.
-			/// @param fFullscale The float32 value that specifies the full scale
+			/// @param fFullscale   The float32 value that specifies the full scale
 			///						(maximum positive swing) value of the samples in
 			///						the  SFIQ, SFR_, SFNC and SFNR chunks.This is
 			///						used together with the dBFS chunk to determine
