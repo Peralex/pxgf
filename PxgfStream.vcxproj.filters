@@ -15,43 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ChunkHandler.h">
+    <ClInclude Include="include\PXGReaderBase.h">
       <Filter>PxgfReadWrite</Filter>
     </ClInclude>
-    <ClInclude Include="PXGReaderBase.h">
+    <ClInclude Include="include\PXGSocketReader.h">
       <Filter>PxgfReadWrite</Filter>
     </ClInclude>
-    <ClInclude Include="PXGSocketReader.h">
+    <ClInclude Include="include\PXGSocketWriter.h">
       <Filter>PxgfReadWrite</Filter>
     </ClInclude>
-    <ClInclude Include="PXGSocketWriter.h">
+    <ClInclude Include="include\PXGStreamReader.h">
       <Filter>PxgfReadWrite</Filter>
     </ClInclude>
-    <ClInclude Include="PXGStreamReader.h">
+    <ClInclude Include="include\PXGStreamWriter.h">
       <Filter>PxgfReadWrite</Filter>
     </ClInclude>
-    <ClInclude Include="PXGStreamWriter.h">
+    <ClInclude Include="include\PXGWriterBase.h">
       <Filter>PxgfReadWrite</Filter>
     </ClInclude>
-    <ClInclude Include="PXGWriterBase.h">
+    <ClInclude Include="include\ResetHandler.h">
       <Filter>PxgfReadWrite</Filter>
     </ClInclude>
-    <ClInclude Include="ResetHandler.h">
+    <ClInclude Include="include\SwapEndian.h">
       <Filter>PxgfReadWrite</Filter>
     </ClInclude>
-    <ClInclude Include="SwapEndian.h">
-      <Filter>PxgfReadWrite</Filter>
-    </ClInclude>
-    <ClInclude Include="handlers\PxgfHandlerException.h">
+    <ClInclude Include="include\handlers\PxgfHandlerException.h">
       <Filter>ChunkHandlers</Filter>
     </ClInclude>
-    <ClInclude Include="exceptions\PxgfEofException.h">
+    <ClInclude Include="include\exceptions\PxgfEofException.h">
       <Filter>Exceptions</Filter>
     </ClInclude>
-    <ClInclude Include="exceptions\PxgfException.h">
+    <ClInclude Include="include\exceptions\PxgfException.h">
       <Filter>Exceptions</Filter>
     </ClInclude>
-    <ClInclude Include="exceptions\PxgfIllegalArgumentException.h">
+    <ClInclude Include="include\exceptions\PxgfIllegalArgumentException.h">
       <Filter>Exceptions</Filter>
     </ClInclude>
     <ClInclude Include="include\handlers\ChunkHandler_dBFS.h">
@@ -141,6 +138,7 @@
     <ClInclude Include="include\handlers\packings\PackingSIQP.h">
       <Filter>Packing</Filter>
     </ClInclude>
+    <ClInclude Include="include\ChunkHandler.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\ChunkHandler_dBFS.cpp">
